@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dde3f1;
+    
+}
+
+
+
+button {
+    
+    font-size: 1rem;
+    padding: 0.625rem 1.25rem;
+    background-color: #7092be;
+    color: white;
+    border: none;
+    border-radius: 0.3125rem;
+    margin-top: 1.25rem;
+ 
+}
+
+button:hover {
+    background-color: #5a7599;
+    transform: translateY(-0.125rem);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+#quote {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #4a4a4a;
+}
